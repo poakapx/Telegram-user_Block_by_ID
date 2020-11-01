@@ -1,0 +1,11 @@
+DROP TABLE DZ_03
+
+CREATE TABLE DZ_03
+(
+    [ID]        INT             IDENTITY        PRIMARY KEY,
+    [Chat_ID]   INT
+)
+
+INSERT INTO DZ_03 ([Chat_ID]) VALUES (1);
+
+SELECT * FROM DZ_03
